@@ -5,15 +5,24 @@
 
 .filters__button-container {
   margin-bottom: 50px;
+  padding-left: unset;
+  padding-right: unset;
+  width: 450px;
+  @media screen and (min-width: 768px) {
+    padding-left: 15px;
+  }
 }
 
 .filters-list {
-  @include align-list;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  // @include align-list;
+  // justify-content: center;
 }
 
 .filters-list__item {
   margin-left: 8px;
+  margin-bottom: 15px;
 }
 
 .filters-list__button {

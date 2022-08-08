@@ -49,17 +49,83 @@
                     </a>
                 </li>
             </ul>
+            <button type="button" class="mob-menu-btn">
+                <svg class="menu-icon-mob" width="40" height="40">
+                        <use href="./images/icons.svg#icon-icon-mob-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden">
+            <div class="container">
+                <div class="mob-menu-top">
+                    <button type="button" class="mob-close-btn">
+                        <svg class="menu-close-icon-mob" width="25" height="25">
+                            <use href="./images/close-icon.svg#icon-close-black-18dp-2-1"></use>
+                        </svg>
+                    </button>
+                    <ul class="mob-menu-nav-list">
+                        <li class="mob-menu-nav-list__item"><a href="./index.html" class="mob-menu-nav-list__link">Студия</a></li>
+                        <li class="mob-menu-nav-list__item"><a href="./portfolio.html" class="mob-menu-nav-list__link">Портфолио</a></li>
+                        <li class="mob-menu-nav-list__item"><a href="" class="mob-menu-nav-list__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="mob-menu-bottom">
+                    <ul class="mob-menu-contacts">
+                        <li class="mob-menu-contacts__tel">
+                            <a class="mob-menu-tel" href="tel:+380961111111">
+                                
+                                +38 096 111 11 11
+                            </a>
+                        </li>
+                        <li class="mob-menu-contacts__mail">
+                            <a class="mob-menu-mail" href="mailto:info@devstudio.com">
+                        
+                                info@devstudio.com
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="mob-menu-social-list">
+                        <li class="mob-menu-social-list__item">
+                            <a href="" class="mob-menu-social-list__link">Instagram</a>
+                        </li>
+                        <li class="mob-menu-social-list__item">
+                            <svg class="small-line-icon" width="20" height="0">
+                                <use href="./images/icons.svg#icon-Line-1"></use>
+                            </svg>
+                        </li>
+                        <li class="mob-menu-social-list__item">
+                            <a href="" class="mob-menu-social-list__link">Twitter</a>
+                        </li>
+                        <li class="mob-menu-social-list__item">
+                            <svg class="small-line-icon" width="20" height="0">
+                                <use href="./images/icons.svg#icon-Line-1"></use>
+                            </svg>
+                        </li>
+                        <li class="mob-menu-social-list__item">
+                            <a href="" class="mob-menu-social-list__link">Facebook</a>
+                        </li>
+                        <li class="mob-menu-social-list__item">
+                            <svg class="small-line-icon" width="20" height="0">
+                                <use href="./images/icons.svg#icon-Line-1"></use>
+                            </svg>
+                        </li>
+                        <li class="mob-menu-social-list__item">
+                            <a href="" class="mob-menu-social-list__link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <main>
         <!-- Первая страничка/HERO ------------------------------>
         <section class="hero">
             <div class="container hero__container">
-                <h1 class="hero-main__title">Эффективные решения <br> для вашего бизнеса</h1>
-                <div class="hero-main__button">
-                <button type="button" class="hero-main__btn" data-modal-open>Заказать услугу</button>
-                </div>
-            </div>
+                    <h1 class="hero-main__title">Эффективные решения <br> для вашего бизнеса</h1>
+                    <div class="hero-main__button">
+                    <button type="button" class="hero-main__btn" data-modal-open>Заказать услугу</button>
+                    </div>
+                </div> 
         </section>
         <!-- Преимущества/BENEFITS ------------------------------>
         <section class="benefits">
@@ -377,6 +443,7 @@
     <!-- Футер/FOOTER ------------------------------>
     <footer class="footer">
         <div class="container footer__container">
+            <div class="footer__tab__container">
             <div class="footer__part-1">
                 <div class="footer__logo">
                     <a class="logo-part-1" href="">Web</a><a class="footer__logo-part-3" href="">Studio</a>
@@ -428,6 +495,7 @@
                         </a>
                     </li>
                 </ul>
+            </div>
             </div>
             <div class="footer__email-section">
                 <p class="footer__text">подпишитесь на рассылку</p>
@@ -546,6 +614,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

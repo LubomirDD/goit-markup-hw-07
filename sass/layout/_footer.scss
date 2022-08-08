@@ -1,13 +1,41 @@
 .footer {
   background-color: #2f303a;
-  height: 252px;
+  height: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+  // display: flex;
+  // align-items: baseline;
+}
+
+// .footer__logo {
+//   margin-left: 163px;
+// }
+
+.footer__tab__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.footer__part-1 {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    margin-left: 76px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .footer__logo-part-3 {
@@ -30,6 +58,12 @@
 
 .footer-list {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 
 .footer-list__item {
@@ -55,7 +89,18 @@
 }
 
 .footer__part-2 {
-  margin-left: 70px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    margin-left: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+    display: block;
+    margin-top: 0;
+  }
 }
 
 .footer__text {
@@ -97,15 +142,25 @@
 }
 
 .footer__email-section {
-  margin-left: 93px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+    display: block;
+    margin-top: 0;
+  }
 }
 
 .footer__form-btn-section {
-  display: flex;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .footer__input {
-  width: 358px;
+  width: 450px;
   height: 50px;
   font-weight: 400;
   font-size: 16px;
@@ -120,11 +175,19 @@
   border-radius: 4px;
   outline: none;
   padding-left: 16px;
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
 }
 
 .footer__button {
-  padding-top: 20px;
-  margin-left: 12px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    margin-left: 12px;
+  }
 }
 
 .footer__btn {
