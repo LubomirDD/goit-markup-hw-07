@@ -247,7 +247,7 @@ ul {
 }
 
 .header-mail:hover,
-.header-mail:focus .header-icon {
+.header-mail:focus .header-contacts__icon {
   fill: var(--accent-color);
 }
 
@@ -295,7 +295,7 @@ ul {
 }
 
 .header-tel:hover,
-.header-tel:focus .header-icon {
+.header-tel:focus .header-contacts__icon {
   fill: var(--accent-color);
 }
 
@@ -1539,7 +1539,7 @@ ul {
 }
 
 .header-mail:hover,
-.header-mail:focus .header-icon {
+.header-mail:focus .header-contacts__icon {
   fill: var(--accent-color);
 }
 
@@ -1587,7 +1587,7 @@ ul {
 }
 
 .header-tel:hover,
-.header-tel:focus .header-icon {
+.header-tel:focus .header-contacts__icon {
   fill: var(--accent-color);
 }
 
