@@ -95,6 +95,7 @@
   align-items: center;
   @media screen and (min-width: 768px) {
     margin-left: 165px;
+    margin-top: unset;
   }
   @media screen and (min-width: 1200px) {
     margin-left: 70px;

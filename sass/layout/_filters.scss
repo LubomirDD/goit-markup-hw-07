@@ -11,7 +11,6 @@
 }
 
 .filters__button-container {
-  // margin-bottom: 50px;
   padding-bottom: 25px;
   padding-left: unset;
   padding-right: unset;
@@ -19,6 +18,10 @@
   @media screen and (min-width: 768px) {
     // padding-left: 15px;
     width: 611px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    padding-bottom: unset;
   }
 }
 
